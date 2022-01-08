@@ -8,7 +8,7 @@
 body {
   font-family: "cairo", sans-serif;
   padding: 2em;
-  line-height: 25px;
+  /* line-height: 10px; */
 }
 header {
   max-width: 100%;
