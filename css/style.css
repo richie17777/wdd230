@@ -8,7 +8,7 @@
 body {
   font-family: "cairo", sans-serif;
   padding: 2em;
-  /* line-height: 25px; */
+  line-height: 25px;
 }
 header {
   max-width: 100%;
@@ -43,7 +43,7 @@ main {
   border-color: rgb(1, 5, 7);
   padding: auto;
   max-width: 100%;
-  margin-top: -30px;
+  margin-top: -15px;
   margin-bottom: -15px;
 }
 footer {
@@ -57,7 +57,6 @@ footer {
   box-shadow: 5px 5px 5px 5px rgb(177, 187, 204);
   color: aliceblue;
 }
-
 .footer-container {
   display: flex;
   align-items: center;
@@ -65,7 +64,7 @@ footer {
   flex-direction: column;
   text-align: center;
   padding: 1em;
-  text-shadow: 5px 1px 5px rgb(87, 7, 124);
+  box-shadow: 5px 5px 5px 5px cadetblue;
 }
 .copy-right {
   padding: 10px;

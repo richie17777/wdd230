@@ -1,2 +1,2 @@
 const lastmod = document.querySelector('#lastmod');
-lastmod.textContent = `Last update: ${document.lastModified}`;
+lastmod.textContent = `Last updated: ${document.lastModified}`;
