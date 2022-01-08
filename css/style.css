@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Overpass:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  max-width: max-content;
+}
+body {
+  font-family: "cairo", sans-serif;
+  padding: 2em;
+  /* line-height: 25px; */
+}
+header {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  background-color: rgb(103, 103, 180);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px cadetblue;
+  text-shadow: 5px 1px 5px rgb(214, 26, 189);
+}
+.title {
+  padding: 1em;
+  color: aliceblue;
+}
+h2 {
+  padding: 1em;
+  margin-top: 0.5px;
+  text-shadow: 5px 2px 5px rgb(29, 148, 148);
+  font-weight: bolder;
+  font-size: 30px;
+}
+main {
+  padding: 3em;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -20px;
+}
+.h {
+  border-color: rgb(1, 5, 7);
+  padding: auto;
+  max-width: 100%;
+  margin-top: -30px;
+  margin-bottom: -15px;
+}
+footer {
+  max-width: 100%;
+  height: auto;
+  padding: 1em;
+  background-color: rgb(103, 103, 180);
+  border-radius: 6px;
+  margin-top: 2em;
+  font-size: medium;
+  box-shadow: 5px 5px 5px 5px rgb(177, 187, 204);
+  color: aliceblue;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1em;
+  text-shadow: 5px 1px 5px rgb(87, 7, 124);
+}
+.copy-right {
+  padding: 10px;
+}
+.lastmod {
+  padding: 5px;
+}
