@@ -1,0 +1,13 @@
+@media only screen and (min-width: 60em){
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .child3{
+    grid-column: span 1;
+  }
+  body {
+    max-width: 100%;
+  }
+
+}

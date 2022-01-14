@@ -1,0 +1,15 @@
+@media only screen and (min-width: 37.5em){
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .child3{
+    grid-column: span 2;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  h4, a{
+    font-size: 1rem;
+  }
+}
