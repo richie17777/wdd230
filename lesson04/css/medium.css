@@ -1,0 +1,10 @@
+@media only screen and (min-width: 35rem) {
+  nav button {
+    display: none;
+  }
+  nav ul#primaryNav {
+    display: flex;
+    margin-left: 2vw;
+    justify-content: flex-end;
+  }
+}
