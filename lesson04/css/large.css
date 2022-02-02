@@ -1,2 +1,10 @@
-@media only screen and(min-width: 64rem) {
-}
+/* @media only screen and (min-width: 64rem) {
+  nav button {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+} */
