@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-header{
+header {
   padding: 1rem;
   text-align: center;
   background-color: rgb(103, 103, 180);
@@ -37,28 +37,32 @@ main section {
   background-color: rgb(32, 13, 117);
 }
 
-.child1, .child2, .child3{
+.child1,
+.child2,
+.child3 {
   border: 1px solid;
   padding: 1rem;
   border-radius: 5px 5px 0 0;
 }
-h1, h2{
+h1,
+h2 {
   color: white;
   padding: 0.5rem;
 }
 
-h3{
+h3 {
   background-color: rgb(9, 6, 19);
   padding: 1rem;
   color: white;
   font-size: 1.5rem;
 }
-a:hover{
+a:hover {
   padding: 1rem;
   color: blue;
 }
 
-h4, a{
+h4,
+a {
   padding: 0.5rem;
   font-size: 1.5rem;
   color: white;
@@ -69,7 +73,7 @@ p {
   font-size: 1.5rem;
   color: white;
 }
-.footer-container{
+.footer-container {
   display: grid;
   grid-template-columns: 1fr;
   background-color: rgb(103, 103, 180);
@@ -77,7 +81,8 @@ p {
   padding: 1rem;
   margin-bottom: 1em;
 }
-.footer-container div{
+.footer-container div {
   text-align: center;
-  margin: -30px;
+  justify-content: space-between;
+  /* margin: -30px; */
 }
