@@ -1,0 +1,29 @@
+@media only screen and (min-width: 35rem) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+  .footer-logo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-p,
+  .address {
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  .footer-heading {
+    text-align: left;
+    /* padding: 1px; */
+  }
+}

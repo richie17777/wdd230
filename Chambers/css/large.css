@@ -1,0 +1,23 @@
+@media only screen and (min-width: 64rem) {
+  nav button {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+    margin-left: 2vw;
+    justify-content: center;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .base-footer {
+    display: flex;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+  .copy-right {
+    display: flex;
+    margin: auto;
+  }
+}

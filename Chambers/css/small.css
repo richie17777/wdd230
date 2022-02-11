@@ -1,0 +1,163 @@
+body {
+  font-family: "Lato", sans-serif;
+  padding: 1rem;
+  margin: auto;
+}
+#header {
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #0d2c54;
+  padding: 5px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 98%;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 1rem 2vw;
+}
+.nav-box img {
+  width: 35px;
+  height: auto;
+  padding: 0.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ffffff;
+  margin: 1px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.4rem;
+}
+.heading-p {
+  letter-spacing: 1pt;
+  color: #e2fcef;
+  font-weight: 700;
+  margin-top: 1px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.date {
+  margin: 0.5rem;
+  text-align: center;
+  background-color: aqua;
+  padding: 0.75rem;
+  color: #0d2c54;
+}
+
+.social {
+  margin-right: 1.5rem;
+}
+.nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2em;
+}
+
+nav {
+  background-color: #0d2c54;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav button {
+  margin: 0.2rem 2vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #ffffff;
+}
+nav ul li a {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #ffffff;
+}
+nav ul li a:hover {
+  background: #ffffff;
+  color: #0d2c54;
+}
+
+nav ul {
+  display: none;
+  justify-content: end;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: block;
+}
+#hamburgerBtn.open span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: none;
+}
+main {
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: auto;
+  background-color: #e2fcef;
+  font-family: "Lato" sans-serif;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+main div {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid black;
+  gap: 20px;
+  align-content: center;
+  justify-items: center;
+}
+footer {
+  background-color: #0d2c54;
+  color: #e2fcef;
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+.footer-logo {
+  display: grid;
+  grid-template-columns: 1fr;
+  color: #e2fcef;
+  padding: 0;
+  margin: auto;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  text-align: center;
+  margin: auto;
+}
