@@ -14,8 +14,8 @@ header {
   padding: 5px 0;
   display: grid;
   grid-template-columns: 1fr;
-  max-width: 98%;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: auto;
 }
 
 .logo {
