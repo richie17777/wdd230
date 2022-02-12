@@ -9,16 +9,16 @@
     font-size: 0.9rem;
   }
   main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    /* grid-area: auto; */
   }
   .footer-container {
-    display: flex;
-    align-content: center;
-    padding: 5px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
-
   .footer-logo {
     display: flex;
     text-align: center;
