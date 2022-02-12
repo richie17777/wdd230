@@ -9,7 +9,7 @@
     font-size: 0.9rem;
   }
   main {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     /* grid-area: auto; */
   }
   .footer-container {
