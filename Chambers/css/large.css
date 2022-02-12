@@ -1,11 +1,17 @@
 @media only screen and (min-width: 64rem) {
-  nav button {
-    display: none;
-  }
   nav ul {
     display: flex;
     margin-left: 2vw;
     justify-content: center;
+  }
+  nav button {
+    display: none;
+  }
+  nav ul.open {
+    display: flex;
+  }
+  .date {
+    font-size: 2rem;
   }
   main {
     display: grid;
