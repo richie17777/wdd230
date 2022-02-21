@@ -13,6 +13,7 @@
   <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
   <script defer src="js/date.js"></script>
   <script defer src="js/hamburger.js"></script>
+  <script defer src="js/windchill.js"></script>
 </head>
 <body>
   <header>
@@ -42,38 +43,71 @@
     <div class="date">The date goes here</div>
   </header>
   <main class="gridarea">
-    <div class="box-1">
-      <h1>Hero with site name and call to action</h1>
-      <img src="https://picsum.photos/400/300" alt="first place holder">
+    <section  class="box-1">
+      <picture class="heroimg">
+        <source media="(max-width: 200px)" srcset="images/wdd230-org_small.jpg">
+        <source media="(max-width: 500px)" srcset="images/wdd230-org_medium.jpg">
+        <source media="(max-width: 800px)" srcset="images/wdd230-org_large.jpg">
+        <img src="images/wdd230-org.jpg" alt="first place holder">
+        <figcaption>Hero with site name and call to action</figcaption>
+      </picture>
       <section class="callToAction">
         <h2>Welcome to Kasoa</h2>
         <p>Come join us at the Chamber</p>
       </section>
+    </section>
+
+    <section class="news">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
+        Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
+        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. 
+        Nam eget dui. Etiam rhoncus.</p>
+    </section>
+    <div class="box-events">
+      <section class="events">
+        <h3>Events</h3>
+        <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
+          Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, 
+          leo eget bibendum sodales, augue velit cursus nunc,</p>
+      </section>
     </div>
-    <div class="news">
-      <p>news</p>
-      <img src="https://picsum.photos/400/300" alt="Second place holder">
-    </div>
-    <div class="events">
-      <p>event(s)</p>
-      <img src="http://placekitten.com/400/300" alt="Third place holder">
-    </div>
-    <div class="weather">
-      <p>weather</p>
-      <img src="http://placekitten.com/g/400/300" alt="forth placeholder">
-    </div>
-    <div class="join">
-      <p>join</p>
-      <img src="https://picsum.photos/400/300" alt="fifth placeholder">
-    </div>
-    <div class="sportlight">
-      <p> company spotlights 1</p>
-      <img src="https://placeimg.com/400/300/any" alt="placeholder">
-      <p> company spotlights 2</p>
-      <img src="https://placeimg.com/400/300/any" alt="placeholder">
-      <p> company spotlights 3</p>
-      <img src="https://placeimg.com/400/300/any" alt="placeholder">
-    </div>
+
+    <section class="weather">
+      <div class="windchill">
+        <h3>Weather</h3>
+        <p>Currently: <span id="temp">33</span>&deg;C</p>
+        <p>Currently cloudy</p>
+        <hr>
+        <p>Wind speed: <span id="windSpeed">2.5</span>km/h</p>
+        <p>windchil: <span id="chill"></span>&deg;C</p>
+      </div>
+    </section>
+
+    <section class="join">
+      <picture>
+        <img src="https://picsum.photos/400/300" alt="fifth placeholder">
+        <figcaption>join</figcaption>
+      </picture>
+    </section>
+
+    <section class="sportlight">
+      <picture>
+        <img src="https://placeimg.com/400/300/any" alt="placeholder">
+        <figcaption>company spotlights 1</figcaption>
+      </picture>
+      <picture>
+        <img src="https://placeimg.com/400/300/any" alt="placeholder">
+        <figcaption>company spotlights 2</figcaption>
+      </picture>
+      <picture>
+        <img src="https://placeimg.com/400/300/any" alt="placeholder">
+        <figcaption>company spotlights 3</figcaption>
+      </picture>
+    </section>
   </main>
   <footer>
     <div class="footer-container">
