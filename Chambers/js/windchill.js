@@ -12,5 +12,5 @@ if (temp <= 50 && wsp > 3){
 document.querySelector('#chill').textContent = windChill;
 
 function windChill(t,s){
-  return "It works"
+  return (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
 }
