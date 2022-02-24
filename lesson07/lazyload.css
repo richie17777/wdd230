@@ -17,11 +17,11 @@ main {
   flex-direction: column;
   padding: 1rem;
 }
-img[data-src] {
+picture img[data-src] {
   filter: blur(0.2em);
 }
 
-img {
+picture img {
   filter: blur(0em);
   transition: filter 0.5s;
 }
