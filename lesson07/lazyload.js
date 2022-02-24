@@ -3,7 +3,7 @@ let imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
   threshold: 0,
-  rootmargin: "0px 0px 50px 0px",
+  rootmargin: "0px 0px -500px 0px",
 };
 
 const loadImages = (image) => {
@@ -12,11 +12,6 @@ const loadImages = (image) => {
     image.removeAttribute('data-src');
   };
 };
-
-// const loadImages = (image) => {
-//   image.setAttribute('src', image.getAttribute('data-src'));
-//   image.onload = () => {image.removeAttribute('data-src');};
-// };
 
 if('IntersectionObserver' in window) {
   const observer = new IntersectionObserver((items, observer) => {
