@@ -210,9 +210,64 @@ p {
   padding: 0.5rem;
   font-size: 1rem;
 }
+/* Discover page styles */
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: 40px 20px 0 20px; */
+  margin: auto;
+}
 
-.clearfix:after {
+.gallery-container .gallery-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.gallery-container .gallery-heading h1 {
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+.gallery-container .gallery-heading h1 span {
+  font-weight: 100%;
+}
+
+.gallery-container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gallery-container .box .column {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+.gallery-container .box .column img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+.gallery-container .btn {
+  margin: 40px 0 70px 0;
+  background: #0d2c54;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+.gallery-container .btn a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  font: bolder;
+  letter-spacing: 3px;
+}
+/* .clearfix:after {
   content: "";
   display: table;
   clear: both;
-}
+} */

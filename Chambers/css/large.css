@@ -62,4 +62,7 @@
   .base-footer {
     font-size: 1rem;
   }
+  .gallery-container .box {
+    flex-direction: row;
+  }
 }
