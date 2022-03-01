@@ -57,6 +57,9 @@
     display: flex;
     margin: auto;
   }
+  .footer-container {
+    padding: 5px;
+  }
   footer-logo,
   .contac,
   .base-footer {
@@ -64,5 +67,10 @@
   }
   .gallery-container .box {
     flex-direction: row;
+  }
+  .gallery-container .box .column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
   }
 }

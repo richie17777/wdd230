@@ -23,16 +23,18 @@
   }
   .footer-logo {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    flex-direction: row;
+  }
+  .footer-heading{
+    text-align: left;
+    margin-left: .5rem;
   }
   .footer-p,
-  .address {
-    margin-top: 0px;
-    margin-left: 5px;
+  .address{
+    margin-left: -6px;
+    font-size: 13px;
   }
-  .footer-heading {
-    text-align: left;
-    /* padding: 1px; */
+  .gallery-container .gallery-heading {
+    font-size: 1em;
   }
 }

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chambers Home Page WDD23 week 4 assignment.</title>
+  <title>KCCB discover page development.</title>
   <link rel="stylesheet" href="/wdd230/Chambers/css/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/wdd230/Chambers/css/small.css">
@@ -13,7 +13,8 @@
   <link href="/wdd230/Chambers/images/favicon.ico" rel="icon" type="image/x-icon" />
   <script defer src="/wdd230/Chambers/js/date.js"></script>
   <script defer src="/wdd230/Chambers/js/hamburger.js"></script>
-  <script defer src="/wdd230/Chambers/js/hamburger.js"></script>
+  <script defer src="/wdd230/Chambers/js/dates.js"></script>
+  <script defer src="/wdd230/Chambers/js/lazyload.js"></script>
 </head>
 <body>
   <header>
@@ -47,42 +48,95 @@
       <div class="gallery-heading"><h1>KCCB <span>GALLERY</span></h1></div>
       <div class="box">
         <div class="column">
-          <picture>
-            <source media="(min-width: 200px)" srcset="">
-            <img src="/wdd230/Chambers/images/Brookvale-Hotel.jpg" alt="Brookvale Hotel">
-          </picture>
-          <picture>
-            <img src="/wdd230/Chambers/images/Chillers_EventHub.jpg" alt=" Chillers Events Hub">
-          </picture>
-          <picture>
-            <img src="/wdd230/Chambers/images/fishing.jpg" alt="Fishing community in Kasoa">
-          </picture>
+          <figure>
+            <picture>
+              <source media="(max-width: 200px)" srcset="/wdd230/Chambers/images/Brookvale-Hotel_200.jpg">
+              <source media="(max-width: 500px)" srcset="/wdd230/Chambers/images/Brookvale-Hotel_500.jpg">
+              <source media="(max-width: 800px)" srcset="/wdd230/Chambers/images/Brookvale-Hotel_800.jpg">
+              <img src="https://dummyimage.com/400x400/0fffff/000000&text=Placeh" data-src="/wdd230/Chambers/images/Brookvale-Hotel.jpg" alt="Brookvale Hotel">
+            </picture>
+            <figcaption>Hotel in Kasoa usually used for business conferences</figcaption>
+          </figure>
+          
+          <figure>
+            <picture>
+              <source media="(max-width: 200px)" srcset="/wdd230/Chambers/images/Chillers_EventHub_small.jpg">
+              <source media="(max-width: 500px)" srcset="/wdd230/Chambers/images/Chillers_EventHub_medium.jpg">
+              <source media="(max-width: 800px)" srcset="/wdd230/Chambers/images/Chillers_EventHub_large.jpg">
+              <img src="https://dummyimage.com/400x400/0fffff/000000&text=Placeh" data-src="/wdd230/Chambers/images/Chillers_EventHub.jpg" alt=" Chillers Events Hub">
+            </picture>
+            <figcaption>This hub is build to hold all events including business functions and conferences</figcaption>
+          </figure>
+
+          <figure>
+            <picture>
+              <source media="(max-width: 200px)" srcset="/wdd230/Chambers/images/fishing_small.jpg">
+              <source media="(max-width: 500px)" srcset="/wdd230/Chambers/images/fishing_medium.jpg">
+              <source media="(max-width: 800px)" srcset="/wdd230/Chambers/images/fishing_large.jpg">
+              <img src="https://dummyimage.com/400x400/0fffff/000000&text=Placeh" data-src="/wdd230/Chambers/images/fishing.jpg" alt="Fishing community in Kasoa">
+            </picture>
+            <figcaption>A fishing community in Kasoa, located along the coast in a town called Nyanyanu</figcaption>
+          </figure>
         </div>
   
         <div class="column">
-          <picture>
-            <source media="(min-width: 200px)" srcset="">
-            <img src="/wdd230/Chambers/images/kasoa-market.jpg" alt="kasoa-market">
-          </picture>
-          <picture>
-            <img src="/wdd230/Chambers/images/kasoa_overview.jpg" alt="Kasoa overview">
-          </picture>
-          <picture>
-            <img src="/wdd230/Chambers/images/Kasoa_policestation.jpg" alt="Kasoa police station">
-          </picture>
+          <figure>
+            <picture>
+              <source media="(max-width: 200px)" srcset="/wdd230/Chambers/images/kasoa-market_small.jpg">
+              <source media="(max-width: 500px)" srcset="/wdd230/Chambers/images/kasoa-market_medium.jpg">
+              <source media="(max-width: 800px)" srcset="/wdd230/Chambers/images/kasoa-market_large.jpg">
+              <img src="https://dummyimage.com/400x400/0fffff/000000&text=Placeh" data-src="/wdd230/Chambers/images/kasoa-market.jpg" alt="kasoa-market">
+            </picture>
+            <figcaption>An overview of the kasoa Market</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source media="(max-width: 200px)" srcset="/wdd230/Chambers/images/kasoa_overview_small.jpg">
+              <source media="(max-width: 500px)" srcset="/wdd230/Chambers/images/kasoa_overview_medium.jpg">
+              <source media="(max-width: 800px)" srcset="/wdd230/Chambers/images/kasoa_overview_large.jpg">
+              <img src="https://dummyimage.com/400x400/0fffff/000000&text=Placeh" data-src="/wdd230/Chambers/images/kasoa_overview.jpg" alt="Kasoa overview">
+            </picture>
+            <figcaption>An overview of Kasoa interchange</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source media="(max-width: 200px)" srcset="/wdd230/Chambers/images/Kasoa_policestation_small.jpg">
+              <source media="(max-width: 500px)" srcset="/wdd230/Chambers/images/Kasoa_policestation_medium.jpg">
+              <source media="(max-width: 800px)" srcset="/wdd230/Chambers/images/Kasoa_policestation_large.jpg">
+              <img src="https://dummyimage.com/400x400/0fffff/000000&text=Placeh" data-src="/wdd230/Chambers/images/Kasoa_policestation.jpg" alt="Kasoa police station">
+            </picture>
+            <figcaption>Kasoa has a polistation that ensures our safety and security</figcaption>
+          </figure>
         </div>
   
         <div class="column">
-          <picture>
-            <source media="(min-width: 200px)" srcset="">
-            <img src="/wdd230/Chambers/images/Market.jpg" alt="Kasoa Market">
-          </picture>
-          <picture>
-            <img src="/wdd230/Chambers/images/Melcome-Kasoa.jpg" alt="Melcom, kasoa branch">
-          </picture>
-          <picture>
-            <img src="/wdd230/Chambers/images/pexels-seyiram.jpg" alt="Fishing community in Kasoa">
-          </picture>
+          <figure>
+            <picture>
+              <source media="(max-width: 200px)" srcset="/wdd230/Chambers/images/Market_small.jpg">
+              <source media="(max-width: 500px)" srcset="/wdd230/Chambers/images/kasoa-market_medium.jpg">
+              <source media="(max-width: 800px)" srcset="/wdd230/Chambers/images/kasoa-market_large.jpg">
+              <img src="https://dummyimage.com/400x400/0fffff/000000&text=Placeh" data-src="/wdd230/Chambers/images/Market.jpg" alt="Kasoa Market">
+            </picture>
+            <figcaption>Inside the kasoa market, traders sell all kinds of legal goods and commodities</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source media="(max-width: 200px)" srcset="/wdd230/Chambers/images/Melcome-Kasoa_small.jpg">
+              <source media="(max-width: 500px)" srcset="/wdd230/Chambers/images/Melcome-Kasoa_medium.jpg">
+              <source media="(max-width: 800px)" srcset="/wdd230/Chambers/images/Melcome-Kasoa_large.jpg">
+              <img src="https://dummyimage.com/400x400/0fffff/000000&text=Placeh" data-src="/wdd230/Chambers/images/Melcome-Kasoa.jpg" alt="Melcom, kasoa branch">
+            </picture>
+            <figcaption>Melcome is one of the biggest supper markets in Ghana</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source media="(max-width: 200px)" srcset="/wdd230/Chambers/images/pexels-seyiram_small.jpg">
+              <source media="(max-width: 500px)" srcset="/wdd230/Chambers/images/pexels-seyiram_medium.jpg">
+              <source media="(max-width: 800px)" srcset="/wdd230/Chambers/images/pexels-seyiram_large.jpg">
+              <img src="https://dummyimage.com/400x400/0fffff/000000&text=Placeh" data-src="/wdd230/Chambers/images/pexels-seyiram.jpg" alt="Fishing community in Kasoa">
+            </picture>
+            <figcaption>Kasoa is found along the coast of Ghanan andso fishing is one of the major activieties for the people</figcaption>
+          </figure>
         </div>
       </div>
       <div class="btn">
@@ -111,6 +165,10 @@
       </div>
     </div>
     <hr>
+    <div>
+      <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+      <p>Current Page Load Timestamp: <span class="today"></span> in milliseconds.</p>
+    </div>
     <div class="base-footer">
       <div class="copy-right" class="lastmod">
         <p>&COPY; 2022 | Kasoa Chamber of Commerce and Business| 
