@@ -73,4 +73,7 @@
     flex-direction: column;
     width: 33%;
   }
+  .gallery-container .box .column img:hover {
+    box-shadow: 5px 0 10px rgb(216, 37, 37);
+  }
 }

@@ -276,6 +276,13 @@ picture img {
   filter: blur(0em);
   transition: filter 0.7s;
 }
+.label {
+  font-weight: 700;
+}
+#visits {
+  font-weight: bolder;
+  font-size: larger;
+}
 /* .clearfix:after {
   content: "";
   display: table;
