@@ -35,3 +35,7 @@ tr:nth-child(odd) td {
 #active{
   background-color: rgb(174, 164, 190);
 }
+#friday{
+  font-style: italic;
+  font-weight: 700;
+}

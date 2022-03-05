@@ -76,4 +76,19 @@
   .gallery-container .box .column img:hover {
     box-shadow: 5px 0 10px rgb(216, 37, 37);
   }
+
+  .thanksYou{
+    grid-template-columns: 1fr;
+  }
+  .form-main{
+    grid-template-columns: 1fr;
+    max-width: 80%;
+  }
+  form label.top input,
+  form label.top textarea {
+  max-width: 35rem;
+  }
+  form p{
+  max-width: 25rem;
+  }
 }
