@@ -348,6 +348,13 @@ form p{
   font-size: .85rem;
   color: #9c2c13;
   background-color:#ffffff;
+  border-radius: 7px;
+}
+form strong{
+  padding: .2rem;
+  background-color: #9c2c13;
+  color: #e2fcef;
+  border-radius: 10px;
 }
 form input.submitBtn {
   border: none;
