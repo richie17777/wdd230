@@ -57,7 +57,7 @@ img {
 }
 li > img {
   width: auto;
-  height: 30px;
+  height: auto;
 }
 footer {
   border-top: 1px solid #555;
