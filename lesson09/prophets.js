@@ -16,8 +16,8 @@ function displayProphets(prophet) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
-    let birthdate = document.createElement('h3')
-    let birthplace = document.createElement('h4')
+    let birthdate = document.createElement('h3');
+    let birthplace = document.createElement('h4');
     let portrait = document.createElement('img');
     let order = ``;
 
@@ -37,8 +37,9 @@ function displayProphets(prophet) {
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
+    birthplace.innerHTML = `Place of birth: ${prophet.birthplace}`;
     birthdate.innerHTML = ` Date of birth: ${prophet.birthdate}`;
-    birthplace.innerHTML = `Place of birth: ${prophet.birthPlace}`;
+    
 
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
@@ -49,8 +50,8 @@ function displayProphets(prophet) {
   
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
-    card.appendChild(birthdate)
-    card.appendChild(birthplace)
+    card.appendChild(birthdate);
+    card.appendChild(birthplace);
     card.appendChild(portrait);
   
     // Add/append the existing HTML div with the cards class with the section(card)

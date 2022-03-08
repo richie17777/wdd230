@@ -15,6 +15,10 @@ footer{
 h1{
   border-bottom: 1px solid #555;
   width: 80%;
+  max-width: 32rem;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
   margin: auto;
   text-align: center;
 }
@@ -28,6 +32,9 @@ h4{
   margin: 0;
   color: #333;
   margin: 2px;
+}
+h4{
+  margin-bottom: 1rem;
 }
 .cards{
   display: grid;
@@ -51,4 +58,10 @@ img {
 li > img {
   width: auto;
   height: 30px;
+}
+footer {
+  border-top: 1px solid #555;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
 }
