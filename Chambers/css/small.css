@@ -367,6 +367,44 @@ form input.submitBtn {
   max-width: 25rem;
 }
 
+#directory-main{
+  margin: 1rem;
+  position: relative;
+}
+#mdirectory-main h2{
+  border-bottom: 1px solid #555;
+  width: 80%;
+  max-width: 32rem;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+h4{
+  color: #555;
+  margin: 0;
+  padding: .5rem;
+}
+.members{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+#mdirectory-main section{
+  margin: 0.3rem;
+  padding: 0.4rem;
+  background-color: #eee;
+  border: 1px solid #555;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mdirectory-main img {
+  width: 100px;
+  /* box-shadow: 0 0 30px #555; */
+  height: auto;
+  border: 1px solid #333;
+}
 /* .clearfix:after {
   content: "";
   display: table;
