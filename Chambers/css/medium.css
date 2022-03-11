@@ -8,11 +8,23 @@
   .heading-p {
     font-size: 0.9rem;
   }
-  main {
-    grid-template-columns: 1fr;
+  .box-1{
+    grid-column: 1/3;
+  }
+  .heroimg{
+    grid-column: 1/3;
+  }
+  .news{
+    grid-column: 1/3;
+  }
+  .join{
+    grid-column: 1/3;
   }
   main section.sportlight {
     display: flex;
+  }
+  .sportlight{
+    grid-column: 1/3;
   }
   .footer-container {
     display: grid;

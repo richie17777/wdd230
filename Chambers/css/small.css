@@ -142,7 +142,6 @@ main {
 .box-1 {
   position: relative;
   top: 10px;
-  left: 10px;
 }
 .callToAction {
   position: absolute;
@@ -157,8 +156,6 @@ main {
 }
 picture.heroimg img {
   display: block;
-  width: 97%;
-  margin: 0 2%;
 }
 img {
   width: 100%;
@@ -203,7 +200,7 @@ footer {
   font-size: 0.8rem;
 }
 .weather {
-  max-width: 80%;
+  /* max-width: 80%; */
   padding: 0.5rem;
 }
 
@@ -390,7 +387,7 @@ h4{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
-#mdirectory-main section{
+#directory-main section{
   margin: 0.3rem;
   padding: 0.4rem;
   background-color: #eee;
@@ -399,7 +396,7 @@ h4{
   flex-direction: column;
   align-items: center;
 }
-#mdirectory-main img {
+#directory-main img {
   width: 100px;
   /* box-shadow: 0 0 30px #555; */
   height: auto;
