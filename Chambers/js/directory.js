@@ -30,7 +30,7 @@ function displayCompanies(company) {
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', company.logourl);
     portrait.setAttribute('alt', `Logo of: ${company.name}`);
-    portrait.setAttribute('href', company.weburl)
+    weburl.setAttribute('href', company.weburl)
     
     portrait.setAttribute('loading', 'lazy');
   

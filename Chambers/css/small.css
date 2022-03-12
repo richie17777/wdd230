@@ -142,6 +142,7 @@ main {
 .box-1 {
   position: relative;
   top: 10px;
+
 }
 .callToAction {
   position: absolute;
@@ -199,9 +200,11 @@ footer {
 .base-footer {
   font-size: 0.8rem;
 }
-.weather {
-  /* max-width: 80%; */
+.weather{
   padding: 0.5rem;
+}
+.windchill img{
+  width: 50px;
 }
 
 p {
@@ -363,13 +366,14 @@ form input.submitBtn {
   width: 96%;
   max-width: 25rem;
 }
-
-#directory-main{
+/* Directory styling */
+.directory-main{
   margin: 1rem;
   position: relative;
+  margin: auto;
 }
-#mdirectory-main h2{
-  border-bottom: 1px solid #555;
+.directory-main h2{
+  border-bottom: 2px solid #222;
   width: 80%;
   max-width: 32rem;
   font-size: 2rem;
@@ -377,30 +381,50 @@ form input.submitBtn {
   padding: 1rem;
   margin: auto;
   text-align: center;
-}
-h4{
-  color: #555;
-  margin: 0;
-  padding: .5rem;
+  margin-bottom: 1rem;
 }
 .members{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
-#directory-main section{
-  margin: 0.3rem;
+
+.directory-main section{
+  margin: 0.5rem;
   padding: 0.4rem;
   background-color: #eee;
   border: 1px solid #555;
+  box-shadow: 1px 1px 1px #333;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#directory-main img {
+.directory-main section h4{
+  color: #0d2c54;
+  font-size: 1.3rem;
+}
+.directory-main section p{
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+  margin: 0 1px 0 1px;
+}
+.directory-main section a{
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 5px;
+  margin-top: .5px;
+}
+.directory-main section a:hover{
+  background-color: #9c2c13;
+  padding: 10px;
+  color: #e2fcef;
+}
+.directory-main img {
   width: 100px;
-  /* box-shadow: 0 0 30px #555; */
   height: auto;
   border: 1px solid #333;
+  box-shadow: 5px 5px 5px #333;
 }
 /* .clearfix:after {
   content: "";

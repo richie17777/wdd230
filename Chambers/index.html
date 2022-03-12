@@ -34,7 +34,7 @@
         <ul id="primaryNav" class="open">
           <li><a href="index.html">Home</a></li>
           <li><a href="/wdd230/Chambers/html/dicover.html">Discover</a></li>
-          <li><a href="#">Directory</a></li>
+          <li><a href="/wdd230/Chambers/html/directory.html">Directory</a></li>
           <li><a href="/wdd230/Chambers/html/join.html">Join</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -78,11 +78,17 @@
     <section class="weather">
       <div class="windchill">
         <h3>Weather</h3>
-        <p>Currently: <span id="temp">33</span>&deg;C</p>
-        <p>Currently cloudy</p>
+        <p>Currently: <span id="temp"></span>&deg;C</p>
+        <span id="icon-src"></span>
+        <picture>
+          <figure>
+            <img src="" alt="" id="weathericon" />
+            <figcaption></figcaption>
+          </figure>
+        </picture>
         <hr>
-        <p>Wind speed: <span id="windSpeed">2.5</span>km/h</p>
-        <p>windchil: <span id="chill"></span>&deg;C</p>
+        <p>Wind speed: <span id="windSpeed"></span>km/h</p>
+        <p>windchil: <span id="chill"></span>&deg;F</p>
       </div>
     </section>
 

@@ -99,4 +99,7 @@
   form p {
     max-width: 25rem;
   }
+  .directory-main{
+    grid-template-columns: 1fr;
+  }
 }
