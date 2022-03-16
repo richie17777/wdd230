@@ -12,6 +12,9 @@ body {
   padding: 2px;
   justify-content: space-between;
 }
+#head-box div h2 {
+  text-align: left;
+}
 
 header {
   background-color: #0d2c54;
@@ -20,12 +23,20 @@ header {
   grid-template-columns: 1fr;
   margin: auto;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5 {
   margin: 0;
+  text-align: center;
+}
+.social{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
 }
 
 .logo {
@@ -35,6 +46,7 @@ h5 {
 }
 .logo img {
   width: 120px;
+  border-radius:  12rem;
 }
 .nav-box img {
   width: 30px;
@@ -62,16 +74,13 @@ h5 {
   margin: 0.5rem;
   text-align: center;
   background-color: aqua;
+  border-radius: 5px;
   padding: 0.75rem;
   color: #0d2c54;
 }
-.social {
-  margin-right: 1.5rem;
-}
 .nav-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: auto;
   padding: 1em;
 }
@@ -174,6 +183,12 @@ footer {
   padding: 0.4rem;
   font-size: 1rem;
 }
+.footer-container div h2{
+  text-align: left;
+}
+.footer-container div p{
+  margin-top: -2px;
+}
 
 .footer-logo {
   display: flex;
@@ -185,6 +200,8 @@ footer {
 }
 .footer-logo img {
   width: 130px;
+  border-radius: 12rem;
+  padding: 2px;
 }
 
 .footer-heading {
@@ -206,6 +223,24 @@ footer {
 .windchill img{
   width: 50px;
 }
+.join{
+  padding: 2px;
+  text-align: center;
+}
+.join p{
+  font-size: 1.2rem;
+  letter-spacing:inherit;
+}
+.join a{
+  text-decoration: none;
+  background-color: #0d2c54;
+  color: #e2fcef;
+  padding: 5px;
+}
+.join a:hover{
+  text-decoration: none;
+  background-color:#9c2c13;
+}
 
 p {
   padding: 0.5rem;
@@ -221,6 +256,11 @@ p {
   text-align: center;
   margin: auto;
 }
+.gallery-container figcaption{
+  padding: 1rem;
+  margin-top: 0;
+  font-weight: 600;
+}
 
 .gallery-container .gallery-heading {
   display: flex;
@@ -230,14 +270,15 @@ p {
   padding-bottom: 20px;
   font-size: .8rem;
 }
+
 .gallery-container .gallery-heading h1 {
   font-size: 3em;
   font-weight: bolder;
-  padding-bottom: 10px;
+  padding: 1rem;
   border-bottom: 2px solid #222;
 }
 .gallery-container .gallery-heading h1 span {
-  font-weight: 100%;
+  font-weight: 100;
 }
 
 .gallery-container .box {
@@ -252,7 +293,7 @@ p {
 }
 .gallery-container .box .column img {
   width: 100%;
-  padding-bottom: 15px;
+  padding-bottom: 1px;
   border-radius: 5px;
 }
 .gallery-container .btn {
@@ -289,7 +330,6 @@ picture img {
   min-height: 20rem;
   width: 100%;
   max-width: 50rem;
-  /* margin: auto; */
 }
 .thanksYou p{
   font-size: 1rem;
@@ -367,6 +407,7 @@ form input.submitBtn {
   max-width: 25rem;
 }
 /* Directory styling */
+
 .directory-main{
   margin: 1rem;
   position: relative;
@@ -391,7 +432,7 @@ form input.submitBtn {
 .directory-main section{
   margin: 0.5rem;
   padding: 0.4rem;
-  background-color: #eee;
+  background-color: aqua;
   border: 1px solid #555;
   box-shadow: 1px 1px 1px #333;
   display: flex;

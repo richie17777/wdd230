@@ -20,6 +20,9 @@
   .join{
     grid-column: 1/3;
   }
+  .box-events{
+    margin: auto;
+  }
   main section.sportlight {
     display: flex;
   }
