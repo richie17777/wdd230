@@ -81,6 +81,7 @@ h5 {
 .nav-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
   margin: auto;
   padding: 1em;
 }
@@ -115,24 +116,24 @@ nav ul li a:hover {
 
 nav ul {
   display: none;
-  justify-content: end;
+  justify-content: center;
 }
 
 nav ul.open {
-  display: none;
+  display: block;
 }
 
 #hamburgerBtn span:nth-child(1) {
-  display: none;
+  display: block;
 }
 #hamburgerBtn span:nth-child(2) {
-  display: block;
+  display: none;
 }
 #hamburgerBtn.open span:nth-child(1) {
-  display: block;
+  display: none;
 }
 #hamburgerBtn.open span:nth-child(2) {
-  display: none;
+  display: block;
 }
 .gridarea {
   display: grid;
@@ -412,6 +413,8 @@ form input.submitBtn {
   margin: 1rem;
   position: relative;
   margin: auto;
+  min-height: 20rem;
+
 }
 .directory-main h2{
   border-bottom: 2px solid #222;

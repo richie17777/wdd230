@@ -8,7 +8,10 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
+    const utahprophets = prophets.filter(x => (x.birthplace === "Utah"))
+
+    utahprophets.forEach(displayProphets);
+    // prophets.forEach(displayProphets);
 
   });
 

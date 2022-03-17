@@ -5,90 +5,105 @@
     "name": "Benest Investment Gh. Ltd.",
     "contact": "+233 302 863416",
     "address": "Kai Mebre Junction , Kasoa, Ghana",
-    "weburl": "http://benestinvestment.com"
+    "weburl": "http://benestinvestment.com",
+    "level": "bronze"
   },
   {
     "logourl": "https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_vk_Vkontakte-128.png",
     "name": "Sahel-sahara Bank (bsic Gh. Ltd.)",
     "contact": "+233 289 543450",
     "address": "My Child School, Kasoa, Ghana",
-    "weburl": "http://bsic.com.gh"
+    "weburl": "http://bsic.com.gh",
+    "level": "silver"
   },
   {
     "logourl": "https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_vk_Vkontakte-128.png",
     "name": "Ecobank Gh. Ltd",
     "contact": "+233 302 910119",
     "address": "Amanfrom, Kasoa, Ghana",
-    "weburl": "https://ecobank.com"
+    "weburl": "https://ecobank.com",
+    "level": "gold"
   },
   {
     "logourl": "https://cdn3.iconfinder.com/data/icons/payment-method-1/64/_O-128.png",
     "name": "Capital Bank",
     "contact": "+233 302 862789",
     "address": "Opp.Commercial Bank, Kasoa, Ghana",
-    "weburl": "http://firstcapitalplus.net"
+    "weburl": "http://firstcapitalplus.net",
+    "level": "silver"
   },
   {
     "logourl": "https://cdn4.iconfinder.com/data/icons/social-media-2273/64/online_social_network_media-128.png",
     "name": "The Bureau",
     "contact": "+233 287 320852",
     "address": "Ngleshie-amanfro, Kasoa, Ghana",
-    "weburl": "http://thebureaugh.com"
+    "weburl": "http://thebureaugh.com",
+    "level": "gold"
   },
   {
     "logourl": "https://cdn2.iconfinder.com/data/icons/flat-icons-19/128/Cube.png",
     "name": "First National Savings & Loans",
     "contact": "+233 266 467211",
     "address": "Market Rd, Kasoa, Ghana",
-    "weburl": "http://firstnationalghana.com"
+    "weburl": "http://firstnationalghana.com",
+    "level": "bronze"
   },
   {
     "logourl": "https://cdn0.iconfinder.com/data/icons/brands-filled-3/232/mixpanel-social-network-brand-logo-128.png",
     "name": "Agricultural Development Bank",
     "contact": "+233 302 850429",
     "address": "Scc Junction Malam, Kasoa, Ghana",
-    "weburl": "http://adb.com.gh"
+    "weburl": "http://adb.com.gh",
+    "level": "bronze"
   },
   {
     "logourl": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/357_Viacoin_logo-128.png",
     "name": "21st Century Construction Ltd.",
     "contact": "+233 544 314500",
     "address": "Kasoa-winneba, Kasoa, Ghana",
-    "weburl": "http://millenniumcitygh.com"
+    "weburl": "http://millenniumcitygh.com",
+    "level": "silver"
   },
   {
     "logourl": "https://cdn1.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_medium-128.png",
     "name": "Cherryincgh",
     "contact": "+233 271 894465",
     "address": "Opposite Yoo Mart, Kasoa, Ghana",
-    "weburl": "http://cherryincgh.net"
+    "weburl": "http://cherryincgh.net",
+    "level": "bronze"
   },
   {
     "logourl": "https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/delicious-128.png",
     "name": "MontyCon",
     "contact": "+233 573 771468",
     "address": "Ofaakor, Kasoa, Ghana",
-    "weburl": "https://www.montycongh.com"
+    "weburl": "https://www.montycongh.com",
+    "level": "silver"
   },
   {
     "logourl": "https://cdn3.iconfinder.com/data/icons/geek-3/24/Galactic_Empire_sigil_logo_star_wars-128.png",
     "name": "Family Trust Micro Credit Services",
     "contact": "+233 577 706738",
     "address": "P.O Box OH 436, Kasoa, Ghana",
-    "weburl": "http://www.familytrustmicrocredit.com"
+    "weburl": "http://www.familytrustmicrocredit.com",
+    "level": 11
   },
   {
     "logourl": "https://cdn4.iconfinder.com/data/icons/social-media-2273/64/social_media_network_online_k-128.png",
     "name": "Turningpoint Solutions Ghana",
     "contact": "+233 540 183899",
     "address": "Kasoa, Ghana",
-    "weburl": "http://tpsolutionsgh.com"
+    "weburl": "http://tpsolutionsgh.com",
+    "level": "bronze"
   },
   {
     "logourl": "https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/memori-128.png",
     "name": "Societe Generale Ghana",
     "contact": "+233 302 984479",
     "address": "Kasoa, Ghana",
-    "weburl": "http://societegenerale.com.gh"
+    "weburl": "http://societegenerale.com.gh",
+    "level": "gold"
   }
-]}
+]
+
+}
