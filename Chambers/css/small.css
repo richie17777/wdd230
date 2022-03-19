@@ -85,6 +85,9 @@ h5 {
   margin: auto;
   padding: 1em;
 }
+.nav-box div{
+  justify-content: space-between;
+}
 
 nav {
   background-color: #0d2c54;
@@ -116,7 +119,6 @@ nav ul li a:hover {
 
 nav ul {
   display: none;
-  justify-content: center;
 }
 
 nav ul.open {
@@ -148,6 +150,7 @@ main {
   font-family: "Lato", sans-serif;
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
+  padding: 7px;
 }
 .box-1 {
   position: relative;
@@ -175,6 +178,8 @@ main section {
   display: grid;
   grid-template-columns: 1fr;
   border: 1px solid black;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #333;
   gap: 20px;
 }
 footer {
@@ -224,8 +229,15 @@ footer {
 .windchill img{
   width: 50px;
 }
+.news,
+.events{
+  padding: 10px;
+  text-align: center;
+}
+
+
 .join{
-  padding: 2px;
+  padding: 6px;
   text-align: center;
 }
 .join p{
@@ -241,6 +253,44 @@ footer {
 .join a:hover{
   text-decoration: none;
   background-color:#9c2c13;
+}
+
+.sportlight img{
+  width: 100px;
+  height: auto;
+  border: 1px solid #333;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px #333;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.sportlight p{
+  margin: 0;
+  padding: 0;
+}
+.sportlight a{
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #0d2c54;
+  color: #e2fcef;
+  margin: auto;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+.sportlight a:hover{
+  background-color: #9c2c13;
+}
+.gridarea .sportlight .gold{
+  text-align: center;
+}
+.gridarea .sportlight div section{
+  align-items: center;
+  box-shadow: 5px 5px 5px #333;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 
 p {
@@ -436,8 +486,8 @@ form input.submitBtn {
   margin: 0.5rem;
   padding: 0.4rem;
   background-color: aqua;
-  border: 1px solid #555;
-  box-shadow: 1px 1px 1px #333;
+  border: 3px solid #555;
+  box-shadow: 5px 5px 5px #333;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -471,6 +521,31 @@ form input.submitBtn {
   border: 1px solid #333;
   border-radius: 7px;
   box-shadow: 5px 5px 5px #333;
+}
+/* Contact page syling */
+.content{
+  margin: 0 20px;
+}
+section .contactInfo{
+  display: block;
+  margin: auto;
+  border: 1px solid #999;
+  width: 100%;
+  border-radius: 5px;
+  /* max-width: 50rem; */
+}
+section .contactInfo .box{
+  text-align: center;
+}
+section .contactInfo .box .text{
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.contact-main section .content h2{
+  padding: 10px;
+  background-color: #9c2c13;
+  color: #e2fcef;
+  margin-top: 2px;
 }
 /* .clearfix:after {
   content: "";
