@@ -19,8 +19,6 @@ body {
 header {
   background-color: #0d2c54;
   padding: 5px;
-  display: grid;
-  grid-template-columns: 1fr;
   margin: auto;
 }
 
@@ -49,7 +47,7 @@ h5 {
   width: 120px;
   border-radius:  12rem;
 }
-.nav-box img {
+.social img {
   width: 30px;
   height: auto;
   padding: 0.5rem;
@@ -80,8 +78,8 @@ h5 {
   color: #0d2c54;
 }
 .nav-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
   justify-content: space-between;
   margin: auto;
   padding: 1em 0;
@@ -109,8 +107,8 @@ nav button {
   color: #ffffff;
 }
 nav ul li a {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  /* flex-direction: column; */
   padding: 0.5rem 2vw;
   text-decoration: none;
   color: #ffffff;
@@ -126,7 +124,6 @@ nav ul {
 
 nav ul.open {
   display: block;
-  text-align: center;
 }
 
 #hamburgerBtn span:nth-child(1) {
