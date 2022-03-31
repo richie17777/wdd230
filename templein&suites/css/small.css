@@ -1,8 +1,37 @@
 
 body{
-  background-color: #FFFFFF;
+  background-color: hwb(0 100% 0%);
+  font-family: "Heebo","prompt", sans-serif;
 }
-nav button{
+header{
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #e2fcef;
+}
+.logo img{
+  width: 110px;
+  padding: 5px;
+  margin-right: 0;
+}
+.social img{
+  width: 40px;
+  padding: 0;
+  margin: 0;
+}
+.social{
+  display: flex;
+}
+.site-name h3{
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 0;
+  padding-left: 0;
+  text-shadow: rgb(0, 0, 0, 0.7);
+}
+.navBtn button{
   margin: .2rem 2vw;
   background-color: transparent;
   border: none;
@@ -24,7 +53,80 @@ nav ul li a{
   text-decoration: none;
   color: #0D1821;
   border-top: 1px solid rgb(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: "Prompt","Heebo", sans-serif;
 }
 nav ul li a:hover{
   background-color: rgba(0, 0, 0, 0.4);
+}
+nav ul{
+  display: none;
+}
+nav ul.open{
+  display: block;
+}
+#hamburgerBtn span:nth-child(1){display: block;}
+#hamburgerBtn span:nth-child(2){display: none;}
+#hamburgerBtn.open span:nth-child(1){display: none;}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+.headbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#e2fcef;
+}
+.date{
+  display: flex;
+  background-color: #0D1821;
+  color: #FFFFFF;
+  margin-top: 20px;
+  padding: .7rem;
+  font-size: 20px;
+  margin: auto;
+}
+main{
+  min-height: 32rem;
+}
+footer{
+  background-color: #e2fcef;
+  text-align: center;
+  padding: 2px;
+}
+footer .logo img{
+  width: 80px;
+}
+footer p{
+  color:#0D1821;
+}
+footer .footerContact{
+  padding: 10px;
+}
+footer .baseFooter{
+  display: flex;
+  font-size: 15px;
+  padding: 10px;
+  justify-content: center;
+}
+.footerContact{
+  color: #e2fcef  ;
+  background-color: rgba(0, 0, 0, .5);
+  max-width: fit-content;
+  margin: auto;
+}
+.footerContact a{
+  color: #e2fcef  ;
+}
+.footerContact a:hover{
+  color: rgb(0, 0, 0, 0.5);
+  padding: 5px;
+}
+#lastmod{
+  background-color: #0D1821;
+  color: #FFFFFF;
+  width: 50%;
+  margin: auto;
+  padding: 7px;
+  text-shadow: 1px solid #AFBFC0;
+  text-align: center;
 }

@@ -1,0 +1,24 @@
+@media only screen and (min-width: 35rem){
+  header .social img{
+    width: 50px;
+    padding: 7px;
+  }
+  .headbox{
+    justify-content: space-evenly;
+  }
+  .logoBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: auto;
+  }
+  
+  .logoBox section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerContact{
+    grid-column: 2/3;
+  }
+  
+}

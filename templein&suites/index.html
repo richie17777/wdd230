@@ -4,30 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home page for temple in and suites website</title>
+  <title>Temple in and suites home page</title>
   <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Prompt&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <script defer src="js/date.js"></script>
+  <script defer src="js/hamburger.js"></script>
 </head>
 <body>
   <header>
-    <div>
-      <picture>
-        <img src="images/logo.png" alt="Temple in and suites logo">
-      </picture>
-    </div>
-    <div>
-      <h1>TempleInn & Suites</h1>
-    </div>
-    <div>
-      <a href="#"><img src="images/facebook_icon.png" alt="temple inn and suite facebook page"></a>
-      <a href="#"><img src="images/instagram_icon.png" alt="temple inn and suite instagram page"></a>
+    <div class="headbox">
+      <div class="logo">
+        <picture>
+          <img src="images/logo.png" alt="Temple in and suites logo">
+        </picture>
+      </div>
+      <div class="site-name">
+        <h3>TempleInn & Suites</h3>
+      </div>
+      <div class="social">
+        <a href="#"><img src="images/facebook_icon.png" alt="temple inn and suite facebook page"></a>
+        <a href="#"><img src="images/instagram_icon.png" alt="temple inn and suite instagram page"></a>
+      </div>
+      <div class="navBtn">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      </div>
     </div>
     <div>
       <nav>
-        <button id="hamburgerBtn">&#9776;</button>
-        <ul>
+        <ul id="primaryNav">
           <li><a href="index.html">Home</a></li>
           <li><a href="">Temple</a></li>
           <li><a href="">Reservation</a></li>
@@ -35,7 +43,58 @@
         </ul>
       </nav>
     </div>
+    <div class="date">The date goes here</div>
   </header>
-  
+  <main>
+    <div>
+      <picture>
+        <source media="(max-width: 200px)" srcset="images/accra_ghana_temple_small.jpg">
+        <source media="(max-width: 500px)" srcset="images/accra_ghana_temple_medium.jpg">
+        <source media="(max-width: 800px)" srcset="images/accra_ghana_temple_large.jpg">
+        <img src="images/accra_ghana_temple.jpg" alt="Accra Ghana Temple">
+      </picture>
+      <section class="callToAction">
+        <h2>Welcome to Ghana</h2>
+        <p>Make a reservation now</p>
+      </section>
+    </div>
+    <div>
+      
+    </div>
+
+  </main>
+  <footer>
+    <div class="logoBox">
+      <section>
+        <div class="logo">
+          <picture>
+            <img src="images/logo.png" alt="Temple in and suites web logo">
+          </picture>
+        </div>
+        <div>
+          <h3>TempleInn & Suites</h3>
+        </div>
+      </section>
+      <div class="contact">
+        <p> Company headquarter address: <br> 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+      </div>
+      <div class="location">
+        <picture>
+          <a href="https://goo.gl/maps/e8rCuXJ2h8pLFvzW7"><img src="images/map.ico" alt=""></a>
+        </picture>
+      </div>
+      <div class="footerContact">
+        <a href="">Contact Us</a>
+      </div>
+    </div>
+    <div class="baseFooter">
+      <p>&COPY; 2022 | TempleIn & Suites | 
+        <p>WDD230 Project</p>
+        <p>| Richard D. Asare | Ghana</p>
+    </div>
+    <div>
+      <p id="lastmod">This is empty for now.</p>
+    </div>
+  </footer>
 </body>
 </html>

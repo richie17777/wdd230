@@ -1,0 +1,16 @@
+@media only screen and (min-width: 64rem){
+  
+  .navBtn button{
+    display: none;
+  }
+  nav ul#primaryNav{
+    display: flex;
+    margin-left: 2vw;
+    justify-content: center;
+    padding: 10px;
+  }
+  nav ul li a{
+    padding: .5rem 1rem;
+    border: none;
+  }
+}
