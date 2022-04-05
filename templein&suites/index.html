@@ -13,6 +13,7 @@
   <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
   <script defer src="js/date.js"></script>
   <script defer src="js/hamburger.js"></script>
+  <script defer src="js/weather.js"></script>
 </head>
 <body>
   <header>
@@ -23,7 +24,7 @@
         </picture>
       </div>
       <div class="site-name">
-        <h3>TempleInn & Suites</h3>
+        <h3 class="siteName">TempleInn & Suites</h3>
       </div>
       <div class="social">
         <a href="#"><img src="images/facebook_icon.png" alt="temple inn and suite facebook page"></a>
@@ -37,31 +38,75 @@
       <nav>
         <ul id="primaryNav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="">Temple</a></li>
-          <li><a href="">Reservation</a></li>
-          <li><a href="">Service</a></li>
+          <li><a href="html/temple.html">Temple</a></li>
+          <li><a href="html/reservations.html">Reservation</a></li>
+          <li><a href="html/service.html">Service</a></li>
         </ul>
       </nav>
     </div>
     <div class="date">The date goes here</div>
   </header>
   <main>
-    <div>
-      <picture>
-        <source media="(max-width: 200px)" srcset="images/accra_ghana_temple_small.jpg">
-        <source media="(max-width: 500px)" srcset="images/accra_ghana_temple_medium.jpg">
-        <source media="(max-width: 800px)" srcset="images/accra_ghana_temple_large.jpg">
-        <img src="images/accra_ghana_temple.jpg" alt="Accra Ghana Temple">
-      </picture>
-      <section class="callToAction">
-        <h2>Welcome to Ghana</h2>
-        <p>Make a reservation now</p>
-      </section>
+    <div class="home-grid">
+      <div class="banner-box">
+        <picture>
+          <source media="(max-width: 200px)" srcset="images/accra_ghana_temple_small.jpg">
+          <source media="(max-width: 500px)" srcset="images/accra_ghana_temple_medium.jpg">
+          <source media="(max-width: 800px)" srcset="images/accra_ghana_temple_large.jpg">
+          <img src="images/accra_ghana_temple.jpg" alt="Accra Ghana Temple">
+        </picture>
+        <section class="callToAction">
+          <h3>Welcome to Ghana</h3>
+          <p>Make a reservation <br> <a href="html/reservations.html">now</a></p>
+        </section>
+      </div>
+      <div class="about">
+        <h2>About Accra Ghana Temple</h2>
+        <p>The temple was announced 16 February 1998, Church leaders broke ground 16 November 2001 and Gordon B. Hinckley, president of 
+          The Church of Jesus Christ of Latter-day Saints from 1995 to 2008, dedicated the Accra Ghana Temple 11 January 2004. 
+          The temple serves Latter-day Saints in West Africa, including the areas of Benin, Ghana, Ivory Coast, Liberia, Nigeria, Sierra Leone and Togo. <br>
+          The exterior of the 17,500-square-foot temple is Namibian pearl granite. Landscaping includes native flowers and palm trees.
+          Currently, there are over 50 temples in various stages of construction, renovation or have been announced throughout the world. </p>
+      </div>
+      <div class="weather">
+        <h2>Weather</h2>
+        <p>Currently: <span id="temp"></span>&deg;C</p>
+        <figure>
+          <img src="" alt="" id="icon">
+          <figcaption></figcaption>
+        </figure>
+        <p>Humidity: <span id="humid"></span>%</p>
+      </div>
+      <div class="forcast">
+        <h2>Three day forcast</h2>
+        <table>
+          <tr>
+            <td>&nbsp;</td>
+            <th>Temperature<span id="Temperature"></span></th>
+            <th>Description<span id="speed"></span></th>
+            <th>Humidity<span id="humidity"></span></th>
+          </tr>
+          <tr>
+            <td>Day1</td>
+            <td><span  id="day1Temp"></span>&deg;C</td>
+            <td><span id="speed1"></span></td>
+            <td><span id="humidity1"></span></td>
+          </tr>
+          <tr>
+            <td>Day2</td>
+            <td><span id="day2Temp"></span>&deg;C</td>
+            <td><span id="speed2"></span></td>
+            <td><span id="humidity2"></span></td>
+          </tr>
+          <tr>
+            <td>Day3</td>
+            <td><span  id="day3Temp"></span>&deg;C</td>
+            <td><span id="speed3"></span></td>
+            <td><span id="humidity3"></span></td>
+          </tr>
+        </table>
+      </div>
     </div>
-    <div>
-      
-    </div>
-
   </main>
   <footer>
     <div class="logoBox">
@@ -79,9 +124,7 @@
         <p> Company headquarter address: <br> 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
       </div>
       <div class="location">
-        <picture>
-          <a href="https://goo.gl/maps/e8rCuXJ2h8pLFvzW7"><img src="images/map.ico" alt=""></a>
-        </picture>
+        <a href="https://goo.gl/maps/e8rCuXJ2h8pLFvzW7"><img src="images/map.ico" alt=""></a>
       </div>
       <div class="footerContact">
         <a href="">Contact Us</a>

@@ -79,7 +79,6 @@ h5 {
 }
 .nav-box {
   display: flex;
-  /* grid-template-columns: 1fr 1fr; */
   justify-content: space-between;
   margin: auto;
   padding: 1em 0;

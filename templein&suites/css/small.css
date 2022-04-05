@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   background-color: hwb(0 100% 0%);
   font-family: "Heebo","prompt", sans-serif;
@@ -10,6 +13,17 @@ header{
   justify-content: center;
   text-align: center;
   background-color: #e2fcef;
+}
+p{
+  color: #0D1821;
+}
+h1,h2,h4{
+  background-color: rgba(0, 0, 0, .5);
+  color: #e2fcef;
+  padding: 2px;
+  margin-top: 10px;
+  text-align: center;
+  margin: auto;
 }
 .logo img{
   width: 110px;
@@ -129,4 +143,94 @@ footer .baseFooter{
   padding: 7px;
   text-shadow: 1px solid #AFBFC0;
   text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  text-align: center;
+}
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+th {
+  background-color: rgb(235,235,235);
+}
+main{
+  max-width: 95%;
+  background-color: #FFFFFF;
+  padding: 2px;
+  margin: 0 auto;
+  padding: 7px;
+}
+main div{
+  padding: 2px;
+}
+.home-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+.banner-box{
+  position: relative;
+  top: 10px;
+}
+.callToAction{
+  position: absolute;
+  top: 20px;
+  left: 180px;
+  width: 50%;
+  height: 7rem;
+  background-color: rgba(52, 45, 161, 0.4);
+  color: #FFFFFF;
+  padding: 0.5rem;
+  box-shadow: 0 0 5px #0D1821;
+  border: 1px solid #0D1821;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0;
+}
+.callToAction a{
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 5px;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.callToAction a:hover{
+  color: #FFFFFF;
+}
+.banner-box img{
+  width: 100%;
+  /* height: 300px; */
+  grid-row: 1;
+  margin: auto;
+}
+.about p{
+  padding: 5px;
+  color: #0D1821;
+  margin-top: 10px;
+}
+.about h2{
+  width: 24rem;
+  margin-top: 10px;
+  font-size: 2rem;
+}
+.weather{
+  margin: 0 5px;
+  text-align: center;
+  margin: 7px;
+}
+.weather h2{
+  width: 20rem;
+  margin: auto;
+}
+.weather p{
+  margin-top: 10px;
+}
+.forcast h2{
+ width: 20rem;
 }

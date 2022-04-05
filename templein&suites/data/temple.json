@@ -1,0 +1,102 @@
+{
+  "temples":[
+    {
+      "temple_name": "Accra Ghana Temple",
+      "address":"Accra Ghana Temple Complex 57 Independence Ave, North Ridge, P.M.B. CT 209, Cantonments, Accra, Ghana",
+      "telephone": "(233) 302-650-123",
+      "email": "ACCRA-THO@ChurchofJesusChrist.org",
+      "services": "No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+      "history": "The temple was announced 16 February 1998, Church leaders broke ground 16 November 2001 and Gordon B. Hinckley, president of The Church of Jesus Christ of Latter-day Saints from 1995 to 2008, dedicated the Accra Ghana Temple 11 January 2004. The temple serves Latter-day Saints in West Africa, including the areas of Benin, Ghana, Ivory Coast, Liberia, Nigeria, Sierra Leone and Togo.",
+      "ordinance_schedule":[
+        "Proxy Baptism",
+        "Proxy Initiatory",
+        "Proxy Endowment",
+        "Proxy Sealing"
+      ],
+      "session_schedule": [
+        "Morning, 8 am to 10 am",
+        "Afternoon, 11 am to 1 pm",
+        "Late-Afternoon, 2 pm to 4 pm"
+      ],
+      "temple_closure": [
+        "Monday, 21 February 2022 - Monday, 23 May 2022",
+        "Saturday, 20 August 2022",
+        "Tuesday, 13 September 2022 - Tuesday, 27 September 2022",
+        "Sunday, 25 December 2022 - Monday, 26 December 2022"
+      ]
+    },
+    {
+      "temple_name": "Kinshasa Democratic Republic of the Congo Temple",
+      "address":"50 Croisement Avenue de l' OUA / Milolo, Quartier Basoko GB, Commune de Ngaliema, Ville de Kinshasa, Democratic Republic of Congo",
+      "telephone": "(243) 815-590-060",
+      "email": "Kinshasatemple@gmail.com",
+      "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+      "history": "The sacred edifice located in the Quartier Bosoko, Ngaliema, area of Kinshasa is situated on nearly five acres. Stone from Egypt and porcelain tile from South Africa cover the floors of the building, which is over 12,000 square feet. The interior design features a subtle elegant geometric and diamond motif. Landscaping offers a vibrant array of local flora in contrast to the white plaster exterior and zinc roof. The Temple was anounced on 1 October 2011. The ground breaking ceremony on 12 February 2016 and was dedicated on 14 April 2019.",
+      "ordinance_schedule":[
+        "Proxy Baptism",
+        "Proxy Endowment",
+        "Proxy Initiatory",
+        "Proxy Sealing"
+      ],
+      "session_schedule": [
+        "Morning, 9 am to 10 am",
+        "Afternoon, 12 pm to 1 pm",
+        "Late-Afternoon, 2:30 pm to 4 pm"
+      ],
+      "temple_closure": [
+        "Monday, 28 March 2022 - Monday, 11 April 2022",
+        "Tuesday, 17 May 2022",
+        "Monday, 17 October 2022 - Monday, 31 October 2022"
+      ]
+    },
+    {
+      "temple_name": "Rome Italy Temple",
+      "address":"Via di Settebagni 376, Rome RM, Italy",
+      "telephone": "(39) 06-9480-5050",
+      "email": "rometemple@gmail.com",
+      "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+      "history": "Plans to construct the temple were announced 4 October 2008. Thomas S. Monson, president of The Church of Jesus Christ of Latter-day Saints, broke ground 23 October 2010.This will be the first temple in Italy. The Religious and Cultural Center of the Church, the first of its kind in Italy, will include a temple, multifunctional meetinghouse (including a cultural hall and facilities for conferencing), visitors' center, family history center and patron housing, all surrounded by lovely gardens.",
+      "ordinance_schedule":[
+        "Proxy Baptism",
+        "Proxy Endowment",
+        "Proxy Initiatory",
+        "Proxy Sealing"
+      ],
+      "session_schedule": [
+        "Morning, 8:30 am to 9:00 am",
+        "Afternoon, 10:30 am to 11:00 am",
+        "Late-Afternoon, 2:30 pm to 3:30 pm"
+      ],
+      "temple_closure": [
+        "Monday, 28 February 2022 - Monday, 9 May 2022",
+        "Wednesday, 29 June 2022",
+        "Monday, 19 September 2022 - Monday, 3 October 2022",
+        "Saturday, 24 December 2022 - Monday, 26 December 2022",
+        "Saturday, 31 December 2022 - Sunday, 1 January 2023"
+      ]
+    },
+    {
+      "temple_name": "London England Temple",
+      "address":"West Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
+      "telephone": "(44) 1342 831-400",
+      "email": "londontemple@gmail.com",
+      "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+      "history": "",
+      "ordinance_schedule":[
+        "Proxy Baptism",
+        "Proxy Endowment",
+        "Proxy Initiatory",
+        "Proxy Sealing"
+      ],
+      "session_schedule": [
+        "Morning, 8:30 am to 9:30 am",
+        "Afternoon, 10:30 am to 11:30 am",
+        "Late-Afternoon, 2:30 pm to 4:30 pm"
+      ],
+      "temple_closure": [
+        "Monday, 7 March 2022 - Monday, 11 April 2022",
+        "Thursday, 2 June 2022 - Friday, 3 June 2022",
+        "Monday, 19 September 2022 - Monday, 3 October 2022"]
+    }
+  ]
+}
