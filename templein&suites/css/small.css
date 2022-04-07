@@ -6,8 +6,8 @@ img{
   max-width: 100%;
 }
 body{
-  background-color: hwb(0 100% 0%);
   font-family: "Heebo","prompt", sans-serif;
+  box-sizing: border-box;
 }
 header{
   display: flex;
@@ -106,60 +106,70 @@ nav ul.open{
   font-size: 20px;
   margin: auto;
 }
-.home-grid {
-  display: grid;
-  grid-gap: 20px;
-}
-main {
-  max-width: 90%;
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 0 auto;
-  background-color: #e2fcef;
-  padding: 7px;
-}
 img {
   width: 100%;
 }
-.banner-box{
+main{
+  margin: 2px auto;
+  padding: 10px;
+}
+.gridarea {
+  display: grid;
+  grid-gap: 20px;
+}
+.home-grid {
+  max-width: 95%;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  /* margin-top: 0.4rem;
+  margin-bottom: 0.4rem; */
+}
+.banner-box {
   position: relative;
   top: 10px;
 }
-.callToAction{
+.callToAction {
   position: absolute;
-  top: 20px;
-  left: 180px;
-  width: 50%;
-  height: 7rem;
+  top: 80px;
+  left: 150px;
   background-color: rgba(52, 45, 161, 0.4);
-  color: #FFFFFF;
-  padding: 0.5rem;
-  box-shadow: 0 0 5px #0D1821;
-  border: 1px solid #0D1821;
+  border: 1px solid #0d2c54;
   border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 20px #0d2c54;
+  color: #e2fcef;
   text-align: center;
   margin: 5px;
 }
-.callToAction a{
-  text-decoration: none;
-  font-size: 2rem;
-  padding: 5px;
-  text-transform: capitalize;
-  margin-top: 10px;
-}
+.callToAction a,
 .callToAction p{
   color: #e2fcef;
 }
-.callToAction a:hover{
-  color: #FFFFFF;
+.callToAction a{
+  font-size: 2.5rem;
+  text-decoration: none;
+  padding: 5px;
 }
-main div {
+.callToAction a:hover{
+  color: #AFBFC0;
+}
+.home-grid h2{
+  padding: 0.75rem;
+}
+.home-grid section h2{
+  text-align: left;
+}
+.home-grid div,
+.home-grid section {
   display: grid;
   grid-template-columns: 1fr;
   padding: 5px;
   gap: 20px;
 }
-
+.weather img{
+  width: 100px;
+}
 footer{
   background-color: #e2fcef;
   text-align: center;
@@ -206,7 +216,6 @@ footer .baseFooter{
 table {
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
-  letter-spacing: 1px;
   font-size: 0.8rem;
   margin-top: 10px;
   text-align: center;
@@ -218,38 +227,7 @@ td, th {
 th {
   background-color: rgb(235,235,235);
 }
-.about p{
-  padding: 5px;
-  margin-top: 10px;
-}
-.about h2{
-  width: 24rem;
-  margin-top: 10px;
-  font-size: 1.8rem;
-}
-.weather{
-  margin: 0 5px;
-  text-align: center;
-  margin: 7px;
-}
-.weather img{
-  width: 50px;
-}
-.weather h2{
-  width: 20rem;
-  margin: auto;
-}
-.weather p{
-  margin-top: 10px;
-}
-.forcast{
-  width: 20rem;
-  margin: 2px;
-  padding: 3px;
- }
-.forcast h2{
- width: 20rem;
-}
+
 
 /* Reservation page styling */
 form fieldset{

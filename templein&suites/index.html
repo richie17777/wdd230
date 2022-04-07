@@ -47,7 +47,7 @@
     <div class="date">The date goes here</div>
   </header>
   <main>
-    <div class="home-grid">
+    <div class="home-grid gridarea">
       <div class="banner-box">
         <picture>
           <source media="(max-width: 200px)" srcset="images/accra_ghana_temple_small.jpg">
@@ -79,32 +79,24 @@
       </div>
       <div class="forcast">
         <h2>Three day forcast</h2>
-        <table>
-          <tr>
-            <td>&nbsp;</td>
-            <th>Temperature<span id="Temperature"></span></th>
-            <th>Description<span id="speed"></span></th>
-            <th>Humidity<span id="humidity"></span></th>
-          </tr>
-          <tr>
-            <td>Day1</td>
-            <td><span  id="day1Temp"></span>&deg;C</td>
-            <td><span id="speed1"></span></td>
-            <td><span id="humidity1"></span>km/h</td>
-          </tr>
-          <tr>
-            <td>Day2</td>
-            <td><span id="day2Temp"></span>&deg;C</td>
-            <td><span id="speed2"></span></td>
-            <td><span id="humidity2"></span>km/h</td>
-          </tr>
-          <tr>
-            <td>Day3</td>
-            <td><span  id="day3Temp"></span>&deg;C</td>
-            <td><span id="speed3"></span></td>
-            <td><span id="humidity3"></span>km/h</td>
-          </tr>
-        </table>
+        <section class="day1">
+          <h2>Day 1</h2>
+          <p>Temperature: <span id="day1Temp"></span>&deg;C</p>
+          <p>Description: <span id="speed1"></span></p>
+          <p>Humidity: <span id="humidity1"></span>km/h</p>
+        </section>
+        <section class="day2">
+          <h2>Day 2</h2>
+          <p>Temperature: <span id="day2Temp"></span>&deg;C</p>
+          <p>Description: <span id="speed2"></span></p>
+          <p>Humidity: <span id="humidity2"></span>km/h</p>
+        </section>
+        <section class="day3">
+          <h2>Day 3</h2>
+          <p>Temperature: <span id="day3Temp"></span>&deg;C</p>
+          <p>Description: <span id="speed3"></span></p>
+          <p>Humidity: <span id="humidity3"></span>km/h</p>
+        </section>
       </div>
     </div>
   </main>
