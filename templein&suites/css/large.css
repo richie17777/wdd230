@@ -14,11 +14,11 @@
   }
   form label.top input,
   form label.top textarea {
-    width: 80%;
+    width: 100%;
     max-width: 35rem;
   }
   form fieldset{
-    max-width: 70%;
+    max-width: 100%;
   }
   .temples-main div h4{
     padding: 5px;
@@ -50,5 +50,8 @@
   }
   main{
     max-width: 80%;
+  }
+  footer .baseFooter{
+    font-size: 1.8em;
   }
 }
