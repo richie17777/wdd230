@@ -6,7 +6,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject);
     const companies = jsonObject['companies'];
 
     companies.forEach(displayCompanies);
@@ -45,3 +45,4 @@ function displayCompanies(company) {
     // Add/append the existing HTML div with the cards class with the section(card)
     members.appendChild(member);
 }
+

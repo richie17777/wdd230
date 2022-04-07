@@ -46,15 +46,37 @@
     </div>
     <div class="date">The date goes here</div>
   </header>
-  <main>
-    <div>
-      <picture>
-        <source media="(max-width: 200px)" srcset="images/accra_ghana_temple_small.jpg">
-        <source media="(max-width: 500px)" srcset="images/accra_ghana_temple_medium.jpg">
-        <source media="(max-width: 800px)" srcset="images/accra_ghana_temple_large.jpg">
-        <img src="../images/accra_ghana_temple.jpg" alt="Accra Ghana Temple">
-      </picture>
-    </div>
+  <main class="form-main">
+    <h2>Make a reservation</h2>
+    <form method="get" action="thanks.html">
+      <fieldset>
+          <legend>Registrant's Information</legend>
+          <label class="top">First Name:*<input type="text" name="fname" required></label>
+          <label class="top">Last Name:*<input type="text" name="lname" required></label>
+          <label class="top">Email:<input type="email" name="email" placeholder="User@gmail.com" required></label>
+          <label class="top">Phone:<input type="tel" name="phone" placeholder="1233555092309 "></label>
+          <label class="top">Number of People:<input type="number" name="numbers" maxlength="100"></label>
+          <label class="top">Number of Rooms:<input type="number" name="rooms" maxlength="10"></label>
+          <label class="top">Date:*<input type="date" name="date" required></label>
+      </fieldset>
+
+      <fieldset class="description">
+        <legend>Type Of Room</legend>
+        <label class="sbs"><input type="radio" name="bed" value="Single"> Single Bed</label>
+        <label class="sbs"><input type="radio" name="bed" value="double"> Double Bed</label> 
+        <label class="sbs"><input type="radio" name="bed" value="Queen-size"> Queen Size</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Special Accommodations</legend>
+        <label class="top">Comments
+        <textarea name="message" id="message" cols="30" rows="10"></textarea></label>
+      </fieldset>
+
+      <input type="hidden" name="datetime-local" value="datetime-local">
+      <input type="submit" value="Make Reservation" class="submitBtn">
+    </form>
+
   </main>
   <footer>
     <div class="logoBox">

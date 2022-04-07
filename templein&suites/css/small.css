@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+img{
+  max-width: 100%;
+}
 body{
   background-color: hwb(0 100% 0%);
   font-family: "Heebo","prompt", sans-serif;
@@ -18,12 +21,18 @@ p{
   color: #0D1821;
 }
 h1,h2,h4{
+  font-family:"prompt","Heebo", sans-serif ;
   background-color: rgba(0, 0, 0, .5);
   color: #e2fcef;
   padding: 2px;
   margin-top: 10px;
   text-align: center;
   margin: auto;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .logo img{
   width: 110px;
@@ -41,8 +50,6 @@ h1,h2,h4{
 .site-name h3{
   font-size: 20px;
   font-weight: 800;
-  margin-left: 0;
-  padding-left: 0;
   text-shadow: rgb(0, 0, 0, 0.7);
 }
 .navBtn button{
@@ -99,37 +106,89 @@ nav ul.open{
   font-size: 20px;
   margin: auto;
 }
-main{
-  min-height: 32rem;
+.home-grid {
+  display: grid;
+  grid-gap: 20px;
 }
+main {
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  background-color: #e2fcef;
+  padding: 7px;
+}
+img {
+  width: 100%;
+}
+.banner-box{
+  position: relative;
+  top: 10px;
+}
+.callToAction{
+  position: absolute;
+  top: 20px;
+  left: 180px;
+  width: 50%;
+  height: 7rem;
+  background-color: rgba(52, 45, 161, 0.4);
+  color: #FFFFFF;
+  padding: 0.5rem;
+  box-shadow: 0 0 5px #0D1821;
+  border: 1px solid #0D1821;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
+}
+.callToAction a{
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 5px;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.callToAction p{
+  color: #e2fcef;
+}
+.callToAction a:hover{
+  color: #FFFFFF;
+}
+main div {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5px;
+  gap: 20px;
+}
+
 footer{
   background-color: #e2fcef;
   text-align: center;
   padding: 2px;
 }
+footer div{
+  padding: 2px;
+  margin: 1em;
+}
 footer .logo img{
   width: 80px;
 }
-footer p{
-  color:#0D1821;
-}
-footer .footerContact{
-  padding: 10px;
+footer .location img{
+  width: 80px;
 }
 footer .baseFooter{
   display: flex;
   font-size: 15px;
-  padding: 10px;
+  padding: 2px;
   justify-content: center;
 }
 .footerContact{
-  color: #e2fcef  ;
   background-color: rgba(0, 0, 0, .5);
   max-width: fit-content;
+  padding: 1em;
   margin: auto;
 }
 .footerContact a{
-  color: #e2fcef  ;
+  color: #e2fcef;
 }
 .footerContact a:hover{
   color: rgb(0, 0, 0, 0.5);
@@ -159,70 +218,22 @@ td, th {
 th {
   background-color: rgb(235,235,235);
 }
-main{
-  max-width: 95%;
-  background-color: #FFFFFF;
-  padding: 2px;
-  margin: 0 auto;
-  padding: 7px;
-}
-main div{
-  padding: 2px;
-}
-.home-grid{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 5px;
-}
-.banner-box{
-  position: relative;
-  top: 10px;
-}
-.callToAction{
-  position: absolute;
-  top: 20px;
-  left: 180px;
-  width: 50%;
-  height: 7rem;
-  background-color: rgba(52, 45, 161, 0.4);
-  color: #FFFFFF;
-  padding: 0.5rem;
-  box-shadow: 0 0 5px #0D1821;
-  border: 1px solid #0D1821;
-  border-radius: 10px;
-  text-align: center;
-  margin: 0;
-}
-.callToAction a{
-  text-decoration: none;
-  font-size: 2rem;
-  padding: 5px;
-  text-transform: capitalize;
-  margin-top: 5px;
-}
-.callToAction a:hover{
-  color: #FFFFFF;
-}
-.banner-box img{
-  width: 100%;
-  /* height: 300px; */
-  grid-row: 1;
-  margin: auto;
-}
 .about p{
   padding: 5px;
-  color: #0D1821;
   margin-top: 10px;
 }
 .about h2{
   width: 24rem;
   margin-top: 10px;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .weather{
   margin: 0 5px;
   text-align: center;
   margin: 7px;
+}
+.weather img{
+  width: 50px;
 }
 .weather h2{
   width: 20rem;
@@ -231,6 +242,125 @@ main div{
 .weather p{
   margin-top: 10px;
 }
+.forcast{
+  width: 20rem;
+  margin: 2px;
+  padding: 3px;
+ }
 .forcast h2{
  width: 20rem;
 }
+
+/* Reservation page styling */
+form fieldset{
+  margin: 1.2rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 0.5rem 2%;
+  max-width: 100%;
+}
+form fieldset legend{
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #e2fcef;
+  border-radius: 3px;
+}
+form label.top,
+form{
+  display: block;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+form label.top input,
+form label.top textarea{
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 0.75rem;
+  width: 75%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+form label.sbs {
+  display: block;
+  padding: 0.75rem;
+  color:#0D1821;
+  font-weight: 500;
+}
+form input.submitBtn {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+  box-shadow: 15px;
+  color:#e2fcef;
+  border-radius: .5rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 90%;
+  max-width: 20rem;
+}
+/* Styling Temples page */
+.temples-main{
+  margin: 1rem;
+  position: relative;
+  margin: auto;
+  min-height: 20rem;
+}
+.temples-main h2{
+  border-bottom: 2px solid #222;
+  width: 80%;
+  max-width: 32rem;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.myTemples{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 5px;
+}
+.temples-main section{
+  margin: 0.5rem;
+  padding: 0.4rem;
+  background-color:#e2fcef;
+  font-size: 1.2rem;
+}
+.temples-main section ul li{
+  list-style-type: none;
+  margin: 1px;
+}
+.temples-main section p{
+  padding: 5px;
+  margin: 2px;
+}
+.temples-main section ul{
+  padding: 5px 2%;
+  justify-content: center;
+}
+/* Service Page */
+.service-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+.service-main div, 
+nav ul {
+  padding: 0 2px;
+  margin-top: 5px;
+}
+.service-main ul,
+.service-main ul li{
+  padding: 2px;
+  margin: 3px;
+  list-style-type: none;
+}
+.list{
+ margin: 10px;
+}
+
+

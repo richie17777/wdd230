@@ -11,7 +11,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: auto;
   }
-  
   .logoBox section{
     display: flex;
     justify-content: center;
@@ -19,6 +18,9 @@
   }
   .footerContact{
     grid-column: 2/3;
+  }
+  .form-main h2{
+    width: 30rem;
   }
   
 }
