@@ -401,3 +401,36 @@ section .contactInfo .box .text{
   width: 100%;
   max-width: 25rem;
 }
+/* Full-time missionary page*/
+.missionary-main{
+  margin: 10px;
+  margin: auto;
+}
+.missionary-main div{
+  padding: 5px;
+  margin-top: 5px;
+  justify-content: space-between;
+  margin: auto;
+}
+.missionary-main .contactBtn{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.missionary-main div p{
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+.missionary-main .btn {
+  margin: 4px 0 70px 0;
+  background: #0d2c54;
+  padding: 10px 2px;
+  border-radius: 5px;
+}
+.missionary-main .btn a {
+  color:#e2fcef;
+  text-decoration: none;
+  font-size: 1.2em;
+  font: bolder;
+  letter-spacing: 3px;
+}
