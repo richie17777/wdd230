@@ -50,7 +50,6 @@ h1,h2,h4{
 .site-name h3{
   font-size: 20px;
   font-weight: 800;
-  text-shadow: rgb(0, 0, 0, 0.7);
 }
 .navBtn button{
   margin: .2rem 2vw;
@@ -155,7 +154,6 @@ main{
   padding: 0.1rem;
 }
 .home-grid section h2{
-  /* margin-top: 10px; */
   width: 16rem;
 }
 .home-grid section p{
@@ -235,7 +233,6 @@ footer .baseFooter{
   width: 50%;
   margin: auto;
   padding: 7px;
-  text-shadow: 1px solid #AFBFC0;
   text-align: center;
 }
 /* Reservation page styling */
@@ -372,10 +369,6 @@ nav ul {
 .content{
   margin: 0 20px;
 }
-/* .contact-main section{
-  background-image: url("../images/kinshasa_temple.jpg");
-  object-fit: cover;
-} */
 section .contactInfo{
   display: block;
   margin: auto;
