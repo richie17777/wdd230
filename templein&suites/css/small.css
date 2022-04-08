@@ -152,21 +152,21 @@ main{
   color: #AFBFC0;
 }
 .home-grid h2{
-  padding: 0.7rem;
+  padding: 0.1rem;
 }
 .home-grid section h2{
-  margin-top: 10px;
-  width: 20rem;
+  /* margin-top: 10px; */
+  width: 16rem;
 }
 .home-grid section p{
-  text-align: center;
-  font-size: 1.5rem;
+  /* text-align: center; */
+  font-size: 1.1rem;
   margin: 5px;
   padding: 3px;
 }
 .home-grid section {
-  margin: 10px;
-  padding: 0.5rem;
+  margin: 1px;
+  padding: 0.3rem;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .home-grid .about{
@@ -178,7 +178,8 @@ main{
 }
 .home-grid .about p{
   margin-top: 1rem;
-  padding: 5px;
+  padding: 3px;
+  font-size: 15px;
 }
 .home-grid .weather{
   margin: auto;
