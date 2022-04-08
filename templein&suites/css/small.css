@@ -349,21 +349,21 @@ nav ul {
  margin: 10px;
 }
 /* Thank you page styling */
-.thanksYou{
+.thankYou{
   padding: .5rem;
   min-height: 20rem;
   width: 80%;
   max-width: 50rem;
 }
-.thanksYou p{
+.thankYou p{
   font-size: 1.5rem;
   padding: 1em;
   font-weight: 700;
 }
-.thanksYou h1{
+.thankYou h1{
   font-size: 1.2rem;
   padding: 1rem;
-  width: 10rem;
+  width: 60%;
   text-align: center;
   color: #e2fcef;
   margin: auto;
@@ -372,6 +372,10 @@ nav ul {
 .content{
   margin: 0 20px;
 }
+/* .contact-main section{
+  background-image: url("../images/kinshasa_temple.jpg");
+  object-fit: cover;
+} */
 section .contactInfo{
   display: block;
   margin: auto;
