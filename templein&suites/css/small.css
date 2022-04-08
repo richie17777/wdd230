@@ -166,6 +166,7 @@ main{
 }
 .home-grid section {
   margin: 10px;
+  padding: 0.5rem;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .home-grid .about{
@@ -173,7 +174,7 @@ main{
   margin: 5px;
   padding: 5px;
   font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 .home-grid .about p{
   margin-top: 1rem;
@@ -183,7 +184,7 @@ main{
   margin: auto;
   text-align: center;
   padding: 0.5rem;
-  width: 80%;
+  /* width: 80%; */
   border: 1px solid #0D1821;
   font-size: 1.3rem;
 }
@@ -203,10 +204,6 @@ footer div{
 footer .logo img{
   width: 100px;
 }
-/* footer .logo-box{
-  display: flex;
-  flex-direction: column;
-} */
 footer .logo h2{
   margin: 1em;
 }
@@ -283,7 +280,6 @@ form input.submitBtn {
   border: none;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 1.2rem;
-  box-shadow: 15px;
   color:#e2fcef;
   border-radius: .5rem;
   padding: 0.75rem 1rem;
@@ -360,7 +356,7 @@ nav ul {
   max-width: 50rem;
 }
 .thanksYou p{
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 1em;
   font-weight: 700;
 }
