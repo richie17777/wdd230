@@ -40,14 +40,65 @@
           <li><a href="../html/temple.html">Temple</a></li>
           <li><a href="../html/reservations.html">Reservation</a></li>
           <li><a href="../html/service.html">Service</a></li>
-          <l1><a href="contact.html"></a></l1>
+          <l1><a href="contact.html">Contact Us</a></l1>
         </ul>
       </nav>
     </div>
     <div class="date">The date goes here</div>
   </header>
-  <main>
-    
+  <main class="contact-main">
+    <section class="contact">
+      <div class="content">
+        <h2>Contact Us</h2>
+        <p>
+          You may contact us through any of the following means. Or you can
+          leave us a message using the form below.
+        </p>
+      </div>
+      <div class="contactInfo">
+        <div class="box">
+          <div class="text">
+            <h3>Address</h3>
+            <p>TempleInn, Accra, Ghana</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text">
+            <h3>Email</h3>
+            <p>TempleInn30@gmail.com</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text">
+            <h3>Phone</h3>
+            <p>(+233) 555 222 444</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text">
+            <h3>Whatsapp</h3>
+            <p>(+233) 222 444 555</p>
+          </div>
+        </div>
+      </div>
+      <div class="contactform">
+        <form method="get" action="thanks.html">
+          <fieldset>
+            <legend>Your Information</legend>
+            <label class="top">First Name*<input type="text" name="fname" required></label>
+            <label class="top">Last Name*<input type="text" name="lname" required></label>
+            <label class="top">Email<input type="email" name="email" placeholder="User@gmail.com" required></label>
+          </fieldset>
+          <fieldset>
+            <legend>Send Us A Message</legend>
+            <label class="top">Your Message
+            <textarea name="message" id="message" cols="30" rows="10"></textarea></label>
+          </fieldset>
+          <input type="hidden" name="datetime-local" value="datetime-local">
+          <input type="submit" value="Send Message" class="submitBtn">
+        </form>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="logoBox">

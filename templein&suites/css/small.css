@@ -368,4 +368,39 @@ nav ul {
   color: #e2fcef;
   margin: auto;
 }
-
+/* Contact page */
+.content{
+  margin: 0 20px;
+}
+section .contactInfo{
+  display: block;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, .5);
+  width: 80%;
+  border-radius: 5px;
+}
+section .contactInfo .box{
+  text-align: center;
+}
+section .contactInfo .box .text{
+  padding: 5px;
+  font-size: 1.2rem;
+}
+.contact-main{
+  padding: 10px;
+}
+.contact-main p{
+  padding: 10px;
+  text-align: center;
+}
+.contact-main section .content h2{
+  padding: 5px;
+  margin-top: 2px;
+  padding: 10px;
+  width: 90%;
+}
+.contact-main label.top input,
+.contact-main label.top textarea{
+  width: 100%;
+  max-width: 25rem;
+}
