@@ -9,7 +9,6 @@
   .logoBox{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: auto;
   }
   .logoBox section{
     display: flex;
