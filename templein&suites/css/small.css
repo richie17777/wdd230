@@ -58,26 +58,24 @@ h1,h2,h4{
   font-size: 2rem;
   color: #0D1821;
 }
-nav{
-  background-color: #AFBFC0;
-}
 nav ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 nav ul li a{
   display: block;
   padding: .75rem 2vw;
   text-decoration: none;
   color: #0D1821;
-  border-top: 1px solid rgb(0, 0, 0, 0.5);
+  /* border-top: 1px solid rgb(0, 0, 0, 0.5); */
   font-size: 20px;
   font-family: "Prompt","Heebo", sans-serif;
 }
 nav ul li a:hover{
   background-color: rgba(0, 0, 0, 0.4);
+  color: #e2fcef;
+  padding: .75rem 2vw;
 }
 nav ul{
   display: none;
@@ -224,7 +222,7 @@ footer .baseFooter{
   color: #e2fcef;
 }
 .footerContact a:hover{
-  color: rgb(0, 0, 0, 0.5);
+  color:#0d2c54;
   padding: 5px;
 }
 #lastmod{
@@ -405,10 +403,11 @@ section .contactInfo .box .text{
 .missionary-main{
   margin: 10px;
   margin: auto;
+  max-width: 90%;
 }
 .missionary-main div{
   padding: 5px;
-  margin-top: 5px;
+  margin-top: 20px;
   justify-content: space-between;
   margin: auto;
 }
@@ -417,20 +416,24 @@ section .contactInfo .box .text{
   margin: 10px;
   padding: 10px;
 }
-.missionary-main div p{
+.missionary-main div p,
+.missionary-main div h2{
   margin-top: 5px;
   font-size: 1.2rem;
 }
 .missionary-main .btn {
   margin: 4px 0 70px 0;
   background: #0d2c54;
-  padding: 10px 2px;
   border-radius: 5px;
 }
 .missionary-main .btn a {
   color:#e2fcef;
   text-decoration: none;
-  font-size: 1.2em;
   font: bolder;
   letter-spacing: 3px;
+}
+.paragragh1, .paragragh2, .paragragh3{
+  padding: 10px;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
 }
