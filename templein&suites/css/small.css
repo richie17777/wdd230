@@ -159,7 +159,7 @@ main{
   width: 16rem;
 }
 .home-grid section p{
-  /* text-align: center; */
+  text-align: center;
   font-size: 1.1rem;
   margin: 5px;
   padding: 3px;
@@ -185,12 +185,11 @@ main{
   margin: auto;
   text-align: center;
   padding: 0.5rem;
-  /* width: 80%; */
   border: 1px solid #0D1821;
   font-size: 1.3rem;
 }
 .weather img{
-  width: 100px;
+  width: 80px;
 }
 footer{
   background-color: #e2fcef;
