@@ -5,7 +5,7 @@ fetch(temp)
   .then((jsObject) => {
     console.log(jsObject);
 
-    document.querySelector('#temp').textContent = (jsObject.main.temp - 273.15).toFixed(1);
+    document.querySelector('#temp').textContent = (jsObject.main.temp).toFixed(1);
 
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
@@ -18,7 +18,7 @@ fetch(temp)
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
 
-    let temp =  Number(jsObject.main.temp - 273.15);
+    let temp =  Number(jsObject.main.temp);
     let wSpeed =  Number(jsObject.wind.speed);
     let windchill = "";
 
@@ -29,8 +29,8 @@ fetch(temp)
     }
 
     function calulateWindChill(temp, wSpeed){
-      // windchill = 13.12 + (0.6215 * temp) - 11.37 (wSpeed^0.16) + 0.3965* temp (wSpeed^0.16)
-      chill = 35.74 + (0.6215 * temp ) - (35.75 * Math.pow(wSpeed, 0.16)) + (0.4275 * temp * Math.pow(wSpeed, 0.16));
+      windchill = 13.12 + (0.6215 * temp) - 11.37 (wSpeed^0.16) + 0.3965* temp (wSpeed^0.16)
+      // chill = 35.74 + (0.6215 * temp ) - (35.75 * Math.pow(wSpeed, 0.16)) + (0.4275 * temp * Math.pow(wSpeed, 0.16));
       return chill;
     }
     // console.log(windchill)
