@@ -46,6 +46,10 @@ main {
   font-weight: bold;
   margin-top: -20px;
 }
+main ul li{
+  padding: 10px;
+  font-size: 1.2rem;
+}
 .h {
   border-color: rgb(1, 5, 7);
   max-width: 100%;

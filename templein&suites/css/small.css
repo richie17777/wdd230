@@ -108,7 +108,7 @@ img {
 }
 main{
   margin: 2px auto;
-  width: 90%;
+  width: 98%;
 }
 .gridarea {
   display: grid;
@@ -172,11 +172,16 @@ main{
   font-size: 15px;
 }
 .home-grid .weather{
-  margin: auto;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin-top: 10px;
   padding: 0.5rem;
   border: 1px solid #0D1821;
   font-size: 1.3rem;
+}
+.forcast section p{
+  margin: 10px;
 }
 .weather img{
   width: 80px;
