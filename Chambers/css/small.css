@@ -79,7 +79,6 @@ nav {
   background-color: #0d2c54;
   margin: auto;
 }
-
 nav ul {
   list-style-type: none;
   overflow: hidden;
@@ -190,16 +189,13 @@ footer {
   border-radius: 12rem;
   padding: 2px;
 }
-
 .footer-heading {
   display: flex;
   flex-direction: column;
 }
-
 .contact img {
   width: 30px;
 }
-
 .footer-logo,
 .contac,
 .base-footer {
