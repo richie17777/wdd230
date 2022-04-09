@@ -6,15 +6,6 @@
   .headbox{
     justify-content: space-evenly;
   }
-  .logoBox{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .logoBox section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .footerContact{
     grid-column: 2/3;
   }

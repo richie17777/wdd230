@@ -1,4 +1,8 @@
 @media only screen and (min-width: 64rem) {
+
+  .navBtn button{
+    display: none;
+  }
   .social{
     grid-column: 2/3;
     grid-row: 1;
@@ -122,7 +126,6 @@
   .gallery-container .box .column img:hover {
     box-shadow: 5px 0 10px rgb(216, 37, 37);
   }
-
   .thanksYou {
     grid-template-columns: 1fr;
   }

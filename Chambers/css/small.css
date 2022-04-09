@@ -6,22 +6,26 @@ body {
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
 }
-
-#head-box {
+header {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #e2fcef;
+  background-color: #0d2c54;
+}
+.head-box {
   display: flex;
   padding: 2px;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
-#head-box div h2 {
+.head-box h2 {
   text-align: left;
 }
-
-header {
-  background-color: #0d2c54;
-  padding: 5px;
-  margin: auto;
-}
-
 h1,
 h2,
 h3,
@@ -31,17 +35,12 @@ h5 {
   text-align: center;
 }
 .social{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-content: center;
+  display: flex;
 }
-
 .logo {
   display: flex;
   align-items: center;
-  margin: 1rem;
-  margin-right: 0;
+  justify-content: center;
 }
 .logo img {
   width: 120px;
@@ -49,16 +48,8 @@ h5 {
 }
 .social img {
   width: 30px;
-  height: auto;
   padding: 0.5rem;
-}
-
-.heading {
-  display: flex;
-  flex-direction: column;
-  margin: .5rem;
-  font-size: 1rem;
-  color: #ffffff;
+  margin-right: 0;
 }
 .heading-p {
   letter-spacing: 1pt;
@@ -67,26 +58,23 @@ h5 {
   margin-top: .3px;
   margin-left: -5px;
   font-size: 0.7rem;
+  text-align: start;
 }
-
 .date {
   margin: 0.5rem;
   text-align: center;
   background-color: aqua;
   border-radius: 5px;
   padding: 0.75rem;
-  color: #0d2c54;
+  color:#0d2c54;
 }
-.nav-box {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  padding: 1em 0;
+.navBtn button{
+  margin: .2rem 2vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #e2fcef;
 }
-.nav-box div{
-  justify-content: space-between;
-}
-
 nav {
   background-color: #0d2c54;
   margin: auto;
@@ -116,15 +104,12 @@ nav ul li a:hover {
   background: #ffffff;
   color: #0d2c54;
 }
-
 nav ul {
   display: none;
 }
-
 nav ul.open {
   display: block;
 }
-
 #hamburgerBtn span:nth-child(1) {
   display: block;
 }
@@ -231,8 +216,6 @@ footer {
   padding: 10px;
   text-align: center;
 }
-
-
 .join{
   padding: 6px;
   text-align: center;
